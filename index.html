@@ -53,7 +53,7 @@
       </p>
       <!-- <br> -->
       <p class="name text-center" style="color:grey">
-          arXiv 2021
+          3DV 2021
       </p>
       
     </div>
@@ -72,7 +72,8 @@
       </div>
       <div class="col">
         <p class="name text-center">
-        Zirui Wang
+        <a href="https://scholar.google.com/citations?user=zCBKqa8AAAAJ&hl=en"
+           target="_blank" >Zirui Wang</a>
         </p>
       </div>
       <div class="col">
@@ -103,33 +104,34 @@
   <br>
   <div class="col text-center">
     <a class="btn btn-outline-primary" href="https://arxiv.org/abs/2104.04073" role="button">Paper</a>
-    <button type="button" class="btn btn-outline-secondary" disabled>Code</button>
+    <a class="btn btn-outline-primary" href="https://github.com/ActiveVisionLab/direct-posenet/tree/main" role="button">Code</a>
     <button type="button" class="btn btn-outline-secondary" disabled>Pre-trained</button>
   </div>
   <br>
-  <!--
-  <div class="sizer">
-    <div class="vid" style="margin-top: 1em;">
-      <div class="embed-responsive embed-responsive-16by9">
-        <iframe class="embed-responsive-item" src="converge_crop.mp4" allow="autoplay;"></iframe>
-      </div>
-    </div>
-  </div>
- -->
+
   <br>
   <div class="row">
-    <!-- <div class="col-md-8 col-md-offset-2"> -->
     <div class="col">
       <h4>Abstract</h4>
       <p class="text-justify">
-        We present a relocalization pipeline, which combines an absolute pose regression (APR) network with a novel view synthesis based direct matching module, offering superior accuracy while maintaining low inference time. Our contribution is twofold: i) we design a direct matching module that supplies a photometric supervision signal to reﬁne the pose regression network via differentiable rendering; ii) we modify the rotation representation from the classical quaternion to SO(3) in pose regression, removing the need for balancing rotation and translation loss terms. As a result, our network Direct-PoseNet achieves state-of-the-art performance among all other single-image APR methods on the 7-Scenes benchmark and the LLFF dataset.
+        We present a relocalization pipeline, which combines an absolute pose regression (APR) network with a novel view synthesis based direct matching module, offering superior accuracy while maintaining low inference time. Our contribution is twofold: i) we design a direct matching module that supplies a photometric supervision signal to reﬁne the pose regression network via differentiable rendering; ii) we show that our method can easily cope with additional unlabeled data without the need for external supervision such as traditional visual odometry or pose graph optimization. As a result, our method achieves state-of-the-art performance among all other single-image APR methods on the 7-Scenes benchmark and the LLFF dataset.
       </p>
     </div>
-    <!-- </div> -->
   </div>
 
   <div class="row">
-    <!-- <div class="col-md-8 col-md-offset-2"> -->
+    <div class="col">
+      <h4>Overview Video</h4>
+      <div class="embed-responsive embed-responsive-16by9">
+        <video controls>
+          <source src="3DV21 Recording Long Video.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <div class="row">
     <div class="col">
       <h4>Architecture</h4>
       <img src="Direct-PN.jpg" alt="Direct-PoseNet" width="1080" >
@@ -138,13 +140,7 @@
       <video id="v0" width="100%" autoplay loop muted>
         <source src="Direct-PoseNet Web Video.mp4" type="video/mp4" />
       </video>
-      <!-- <div class="vid" style="margin-top: 1em;">
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="Direct-PoseNet Web Video.mp4" allowfullscreen></iframe>
-        </div>
-      </div> -->
     </div>
-    <!-- </div> -->
   </div>
   <br>
 
@@ -155,7 +151,7 @@
       @article{chen21directPN,
         title={Direct-{P}ose{N}et: Absolute Pose Regression with Photometric Consistency},
         author={Chen, Shuai and Wang, Zirui and Prisacariu, Victor Adrian},
-        journal={arxiv arXiv:2104.04073},
+        journal={International Conference on 3D Vision},
         year={2021},
       }
       </pre>
