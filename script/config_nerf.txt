@@ -1,0 +1,24 @@
+# # NeRF_Heads
+expname=NeRF_Heads
+basedir=../logs 
+datadir=../data/7Scenes/heads
+dataset_type=7Scenes
+no_batching=True
+use_viewdirs=True
+lrate_decay=5
+N_samples=128
+netwidth=128
+N_rand=1024
+half_res=True
+i_weights=500
+i_print=1
+i_testset=500
+trainskip=5
+testskip=5
+pose_scale=1
+df=4
+reduce_embedding=2
+epochToMaxFreq=1200
+multires=8
+near_far=[0.5, 2.5]
+load_pose_avg_stats=True
