@@ -88,9 +88,7 @@ python train.py --config config_direct_pn.txt --eval --testskip=1 --pretrain_mod
 ```
 
 ## Pre-trained model
-You can download our paper models using the link below.
-
-(Coming Soon)
+We currently provide the 7-Scenes models in our paper. You can download our paper models using this [link](https://www.robots.ox.ac.uk/~shuaic/direct-pn2021/paper_models.tar.gz).
 
 ## Acknowledgement
 We thank Kejie Li for his advice on experimental design and generous help to polish our paper. We also appreciate Henry Howard-Jenkins and Theo W. Costain for some great comments and discussions.
