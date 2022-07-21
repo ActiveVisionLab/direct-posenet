@@ -153,7 +153,7 @@ def normalize_recenter_pose(poses, sc, hwf):
 class SevenScenes(data.Dataset):
     def __init__(self, scene, data_path, train, transform=None,
                  target_transform=None, mode=0, seed=7,
-                 skip_images=False, half_res=False, df=2, trainskip=1, testskip=1, hwf=[480,640,558.], use_ndc=False):
+                 skip_images=False, half_res=False, df=2, trainskip=1, testskip=1, hwf=[480,640,585.], use_ndc=False):
       """
       :param scene: scene name ['chess', 'pumpkin', ...]
       :param data_path: root 7scenes data directory.
